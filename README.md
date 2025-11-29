@@ -1,8 +1,9 @@
 # **File Manager**
 
 A **cross-platform, GUI-based file manager written in Python** using **CustomTkinter**.  
-The program allows **browsing directories**, **opening files**, **creating and renaming files and folders**, and **navigating drives (Windows only)**.  
+The program allows **browsing directories**, **opening files**, **creating and renaming files and folders**, and **navigating drives**.  
 It features a **dark theme with blue accents** and a **clean, intuitive interface**.
+It features a **dark theme with blue accents** and a **clean, intuitive interface**, compatible with **Windows, macOS, and Linux**.
 
 ---
 
