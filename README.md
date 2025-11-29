@@ -57,7 +57,8 @@ It features a **dark theme with blue accents** and a **clean, intuitive interfac
 
 ## **Screenshots**
 
-*(Add sample screenshots of the file manager here for better visual understanding)*  
+![File Manager Screenshot](screenshots/untitled.png)
+  
 
 ---
 
