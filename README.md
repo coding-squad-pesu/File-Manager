@@ -58,7 +58,14 @@ It features a **dark theme with blue accents** and a **clean, intuitive interfac
 
 ## **Screenshots**
 
-![File Manager Screenshot](screenshots/Untitled.png)
+ ### **Home View**
+  ![Home Screenshot](screenshots/Untitled.png)
+
+  ### **Folder Navigation**
+  ![Navigation Screenshot](screenshots/Untitled2.png)
+
+  ### **File Operations Example**
+  ![File Operations Screenshot](screenshots/Untitled3.png)
 
   
 
