@@ -45,32 +45,36 @@ It features a **dark theme with blue accents** and a **clean, intuitive interfac
    python fm_simple.py
 4. **Use the interface buttons and top bar to navigate, open files, and manage folders/files.**
 
-Input Validation / Safety
+---
 
-Folder deletion is disabled to prevent accidental data loss.
+## **Input Validation / Safety**
 
-File/folder names must be valid for the operating system.
+- **Folder deletion is disabled** to prevent accidental data loss.  
+- **File/folder names must be valid** for the operating system.  
+- Only **existing files/folders** can be **renamed** or **opened**.  
 
-Only existing files/folders can be renamed or opened.
+---
 
-Screenshots
+## **Screenshots**
 
-(Add sample screenshots of the file manager here for better visual understanding)
+*(Add sample screenshots of the file manager here for better visual understanding)*  
 
-Future Improvements
+---
 
-Add file preview (text/images) inside the GUI.
+## **Future Improvements**
 
-Implement multi-file selection and batch operations.
+- **Add file preview** (text/images) inside the GUI.  
+- **Implement multi-file selection** and **batch operations**.  
+- **Add search functionality** within folders.  
+- **Add theme customization** (**light/dark mode toggle**).  
 
-Add search functionality within folders.
+---
 
-Add theme customization (light/dark mode toggle).
+## **Language and Tools**
 
-Language and Tools
+Written in **Python 3.8+** using:
 
-Written in Python 3.8+ using:
-
+```python
 import os
 import sys
 import subprocess
@@ -78,11 +82,15 @@ import customtkinter as ctk
 import tkinter as tk
 from tkinter import filedialog, simpledialog, messagebox
 
+---
 
-CustomTkinter for GUI
+## **Language and Tools**
 
-Standard Python libraries: os, sys, subprocess, tkinter
+- **CustomTkinter** for GUI  
+- Standard Python libraries: **os**, **sys**, **subprocess**, **tkinter**  
 
-License
+---
 
-Open-source project created for educational purposes and demonstration of a cross-platform GUI-based file manager in Python.
+## **License**
+
+Open-source project created for **educational purposes** and demonstration of a **cross-platform GUI-based file manager in Python**.
