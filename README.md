@@ -57,7 +57,8 @@ It features a **dark theme with blue accents** and a **clean, intuitive interfac
 
 ## **Screenshots**
 
-![File Manager Screenshot](screenshots/untitled.png)
+![File Manager Screenshot](screenshots/Untitled.png)
+
   
 
 ---
