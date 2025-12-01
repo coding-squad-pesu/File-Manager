@@ -1,5 +1,4 @@
 # Simple CustomTkinter File Manager ( some features from tkinter also utilised)
-
 import os
 import sys
 import subprocess
@@ -68,9 +67,6 @@ path_label.pack(side="left", fill="x", expand=True, padx=(4, 8))
 #Renames the selected file or folder.
 
 
-
-
-
 def change_dir(path):
     """change current folder"""
     global curr_dir
@@ -102,9 +98,9 @@ else:
     drive_selector = ctk.CTkLabel(top_bar, text=" macOS/Linux ")    #if not windows than mac or linux
     drive_selector.pack(side="right", padx=(8, 4))
 
-# ─────────────────────────────
-# FILE LIST AREA
-# ─────────────────────────────
+
+# File list in the middle
+
 main_area = ctk.CTkFrame(app)
 main_area.pack(fill="both", expand=True, padx=12, pady=6)
 
@@ -129,9 +125,8 @@ file_list.pack(fill="both", expand=True)
 list_scroll.config(command=file_list.yview)
 
 
-# ─────────────────────────────
-# HELPER FUNCTIONS
-# ─────────────────────────────
+#functions
+
 def refresh_view():
     """show folders and files in listbox"""
     file_list.delete(0, tk.END)
@@ -264,9 +259,8 @@ def rename_selected():
         refresh_view()
 
 
-# ─────────────────────────────
-# CONTROL PANEL BUTTONS  
-# ─────────────────────────────
+# Control paenls at the bottom
+
 control_bar = ctk.CTkFrame(app)
 control_bar.pack(fill="x", padx=12, pady=(6, 12))
 
@@ -294,9 +288,9 @@ del_btn.pack(side="left", padx=6)
 rename_btn = ctk.CTkButton(control_bar, text="Rename", width=100, command=rename_selected)
 rename_btn.pack(side="left", padx=6)
 
-# ─────────────────────────────
-# KEY BINDINGS
-# ─────────────────────────────
+
+# key binds for keyboard
+
 file_list.bind("<Double-Button-1>", open_selected)
 app.bind("<Return>", open_selected)      # Enter → open
 app.bind("<BackSpace>", go_back)         # Backspace → go up
