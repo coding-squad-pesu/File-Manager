@@ -38,7 +38,7 @@ It features a **dark theme with blue accents** and a **clean, intuitive interfac
 
 1. **Clone the repository**:  
    ```bash
-   git clone https://github.com/Sachit557/File-Manager.git
+   git clone https://github.com/coding-squad-pesu/File-Manager.git          
    cd File-Manager
 2. **Install dependencies**:
    pip install customtkinter
