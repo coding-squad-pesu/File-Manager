@@ -303,3 +303,4 @@ refresh_view()
 app.mainloop()
 
 # folders cannot be deleted ( causing crash when tried)
+# prefer to add a loading animation!!
